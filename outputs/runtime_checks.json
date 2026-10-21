@@ -1,0 +1,10 @@
+{
+    "missing_input_rejected": 1,
+    "failed_decode_rejected": 1,
+    "latest_request_wins": 1,
+    "image_only_saved_model_inference": 1,
+    "video_frames_checked": 6,
+    "video_seek_checked": 1,
+    "max_video_score_difference": 0.0,
+    "queue_capacity": 1
+}

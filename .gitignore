@@ -1,0 +1,62 @@
+# Build products and downloaded dependencies
+/build/
+/.deps/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/compile_commands.json
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+*.ilk
+*.idb
+
+# Keep dataset provenance, not raw images/masks or the downloaded archive
+/data/*
+!/data/source.json
+
+# Portable distribution archives and new experimental runs
+/share/
+/runs/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tar.zst
+
+# Keep the small saved model, reports, examples and demo under outputs/
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor, agent and account settings
+/.vscode/
+/.idea/
+/.codex/
+/.agents/
+/.aws/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Temporary files, logs and OS metadata
+*.part
+*.tmp
+*.log
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

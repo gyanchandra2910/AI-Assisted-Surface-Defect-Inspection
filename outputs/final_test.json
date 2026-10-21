@@ -1,0 +1,47 @@
+{
+    "test_images": 1004,
+    "model": "svm",
+    "feature_count": 110,
+    "threshold": -0.081807687878608704,
+    "chosen_model": {
+        "tn": 846,
+        "fp": 48,
+        "fn": 22,
+        "tp": 88,
+        "accuracy": 0.93027888446215135,
+        "defect_precision": 0.6470588235294118,
+        "defect_recall": 0.80000000000000004,
+        "defect_f1": 0.71544715447154472,
+        "defect_f2": 0.76388888888888884,
+        "roc_auc": 0.93831604636973764,
+        "average_precision": 0.80685514270289294
+    },
+    "majority_baseline": {
+        "tn": 894,
+        "fp": 0,
+        "fn": 110,
+        "tp": 0,
+        "accuracy": 0.89043824701195218,
+        "defect_precision": 0.0,
+        "defect_recall": 0.0,
+        "defect_f1": 0.0,
+        "defect_f2": 0.0,
+        "roc_auc": 0.5,
+        "average_precision": 0.10956175298804781
+    },
+    "localization": {
+        "defective_images": 110,
+        "mean_defective_iou": 0.20416339898174196,
+        "mean_defective_dice": 0.29589441498279212,
+        "defective_pixel_precision": 0.92482113509706276,
+        "defective_pixel_recall": 0.15385200458001771,
+        "normal_images": 894,
+        "normal_false_positive_area_fraction": 0.0002793316368185095,
+        "localization_ms_per_image": 14.163188147410358
+    },
+    "timings": {
+        "feature_ms_per_image": 40.635093426294794,
+        "batch_prediction_ms_per_image": 0.039190139442231077,
+        "feature_and_prediction_images_per_second": 24.585559039628038
+    }
+}

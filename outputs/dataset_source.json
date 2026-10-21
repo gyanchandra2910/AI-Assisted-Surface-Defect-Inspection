@@ -1,0 +1,17 @@
+{
+  "source_url": "https://data.vicos.si/datasets/KSDD/KolektorSDD2.zip",
+  "official_page": "https://www.vicos.si/resources/kolektorsdd2/",
+  "download_date_utc": "2026-10-13T08:26:21.315492+00:00",
+  "bytes": 853126555,
+  "sha256": "edcdb486809b24f1d17b785e30c52fafc5999554dd5fe18ddf77b61ceb6f36a8",
+  "zip_crc_verified": true,
+  "auxiliary_entries": [
+    "train/10301 (copy).png",
+    "train/10301_GT (copy).png",
+    "split_weakly_0.pyb",
+    "split_weakly_126.pyb",
+    "split_weakly_16.pyb",
+    "split_weakly_246.pyb",
+    "split_weakly_53.pyb"
+  ]
+}

@@ -1,0 +1,12 @@
+Canonical training: 2331; defective 246; normal 2085
+Canonical test: 1004; defective 110; normal 894
+Every pair decoded and dimensions validated. Labels = nonempty paired mask.
+Decoded BGR pixels plus dimensions hashed with SHA256.
+Auxiliary entries preserved; never executed/deserialized:
+split_weakly_0.pyb
+split_weakly_126.pyb
+split_weakly_16.pyb
+split_weakly_246.pyb
+split_weakly_53.pyb
+train/10301 (copy).png [same pixels as train/10301 ]
+train/10301_GT (copy).png [not identical to canonical pixels]

@@ -1,0 +1,15 @@
+{
+    "opengl_version": "3.3.0 Core Profile Context 24.10.38.09.241016",
+    "renderer": "AMD RadeonT 660M",
+    "genuine_framebuffer_screenshots": 6,
+    "rendered_frames": 582,
+    "render_mean_ms": 0.54948419243986246,
+    "render_p95_ms": 0.48549999999999999,
+    "render_mean_throughput_fps": 1819.8885677852209,
+    "render_timing_includes_gpu_finish": 1,
+    "analysis_mean_ms": 53.451060000000005,
+    "video_frames_rendered": 4,
+    "transform_picking_resize_roi_exercised": 1,
+    "framebuffer_source_pixel_samples": 9,
+    "framebuffer_source_max_channel_error": 1
+}

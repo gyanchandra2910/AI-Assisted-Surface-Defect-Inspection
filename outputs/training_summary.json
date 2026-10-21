@@ -1,0 +1,25 @@
+{
+    "seed": 20261013,
+    "fit_images": 1865,
+    "validation_images": 466,
+    "cross_test_duplicate_train_images_excluded": 0,
+    "selected": "full svm 1.000000",
+    "selection_objective": "validation F2, then F1",
+    "saved_reload_max_score_difference": 0.0,
+    "feature_ms_per_image": 43.991022093522155,
+    "development_total_seconds": 281.22172230000001,
+    "model_refit_on_validation": 0,
+    "chosen_validation": {
+        "tn": 399,
+        "fp": 18,
+        "fn": 10,
+        "tp": 39,
+        "accuracy": 0.93991416309012876,
+        "defect_precision": 0.68421052631578949,
+        "defect_recall": 0.79591836734693877,
+        "defect_f1": 0.73584905660377342,
+        "defect_f2": 0.77075098814229248,
+        "roc_auc": 0.91161356628982526,
+        "average_precision": 0.74988169432830276
+    }
+}
